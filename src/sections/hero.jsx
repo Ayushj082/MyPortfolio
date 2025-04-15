@@ -1,5 +1,6 @@
 import { words } from "../constants/index.js";
 import Button from "../components/Button.jsx";
+import HeroExperience from "../components/HeroModels/HeroExperience.jsx";
 const Hero =()=>{
     return (
         <section id="hero" className="relative overflow-hidden">
@@ -9,6 +10,11 @@ const Hero =()=>{
 
         <div className="hero-layout">
             <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
+            <figure>
+                <div className="hero-3d-layout">
+                <HeroExperience />
+                </div>
+            </figure>
             <div className="flex flex-col gap-7">
             <div className="hero-text">
             <h1>Shaping 
