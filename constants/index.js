@@ -12,8 +12,8 @@ const navLinks = [
     link: "#skills",
   },
   {
-    name: "Testimonials",
-    link: "#testimonials",
+    name: "Resume",
+    link: "https://drive.google.com/file/d/1mLdPjpbwA0fyghLc5IGJmM21fff0Qsey/view?usp=sharing",
   },
 ];
 

@@ -15,6 +15,10 @@ const navLinks = [
       name: "Testimonials",
       link: "#testimonials",
     },
+    {
+      name: "Resume",
+      link: "https://drive.google.com/file/d/1mLdPjpbwA0fyghLc5IGJmM21fff0Qsey/view?usp=sharing",
+    },
   ];
   
   const words = [
@@ -29,10 +33,10 @@ const navLinks = [
   ];
   
   const counterItems = [
-    { value: 15, suffix: "+", label: "Years of Experience" },
-    { value: 200, suffix: "+", label: "Satisfied Clients" },
-    { value: 108, suffix: "+", label: "Completed Projects" },
-    { value: 90, suffix: "%", label: "Client Retention Rate" },
+    { value: 10, suffix: "+", label: "Completed Projects" },
+    { value: 5, suffix: "+", label: "Hackathons & Competitions"},
+    { value: 95, suffix: "%", label: "Project Completion Rate" },
+    { value: 500, suffix: "+", label: "Leetcode Problems Solved" },
   ];
   
   const logoIconsList = [
