@@ -4,16 +4,16 @@ const navLinks = [
       link: "#work",
     },
     {
-      name: "Experience",
-      link: "#experience",
+      name: "Education",
+      link: "#education",
     },
     {
       name: "Skills",
       link: "#skills",
     },
     {
-      name: "Testimonials",
-      link: "#testimonials",
+      name: "LinkedIn",
+      link: "https://www.linkedin.com/in/ayushman-jaiswal-49969521a/",
     },
     {
       name: "Resume",
@@ -142,7 +142,7 @@ const navLinks = [
       rotation: [0, 0, 0],
     },
     {
-      name: "Project Manager",
+      name: "GitHub",
       modelPath: "/models/git-svg-transformed.glb",
       scale: 0.05,
       rotation: [0, -Math.PI / 4, 0],
@@ -166,7 +166,7 @@ const navLinks = [
       review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
       imgPath: "/images/exp2.png",
       logoPath: "/images/school.png",
-      title: "St. Mary's Convent Sr. Sec. School Vikasnagar",
+      title: "St. Mary's Convent Sr. Sec. School Vikasnagar Dehradun",
       date: "April 2020 - June 2022",
       responsibilities: [
         "PCM With Computer Science",

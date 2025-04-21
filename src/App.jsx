@@ -4,6 +4,9 @@ import NavBar from "./components/NavBar"
 import LogoSection from "./components/LogoSection"
 import FeatureCards from "./sections/FeatureCards"
 import EducationSection from "./sections/EducationSection"
+import TechStack from "./sections/TechStack"
+import Contact from "./sections/Contact"
+import Footer from "./sections/Footer"
 const App =()=>{
     return (
         <main>
@@ -14,6 +17,9 @@ const App =()=>{
                 {/* <LogoSection /> */}
                 <FeatureCards />
                 <EducationSection />
+                <TechStack />
+                <Contact />
+                <Footer />
             </div>
         </main>
     )
