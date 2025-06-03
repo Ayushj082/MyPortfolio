@@ -35,24 +35,38 @@ const ShowcaseSection = ()=>{
                 <div className="showcaselayout">
                 {/* LEFT SIDE */}
                 <div className="first-project-wrapper" ref={project1Ref}>
-                <a href="https://quick-booker.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <a href="https://jan-sahayak.vercel.app/" target="_blank" rel="noopener noreferrer">
                 <div className="image-wrapper">
-                <img src="/images/project1.png" alt="QuicBooker" className="w-full h-full object-contain transform transition-transform duration-300 hover:scale-105" />
+                <img src="/images/project4.png" alt="QuickBooker" className="w-full h-full object-contain transform transition-transform duration-300 hover:scale-105" />
                 </div>
                 </a>
                 <div className="text-content">
                 <h2>
-                <a href="https://quick-booker.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:underline">
-                    On-Demand Rooms Made Simple with a Powerful, User-Friendly Website called QuickBooker 
+                <a href="https://jan-sahayak.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                    JanSahayak is a full-stack web app with WhatsApp integration that enables citizens to report municipal issues. 
                 </a>
                 </h2>
                     <p className="text-white-50 md:text-xl">
-                    A website built with NextJS,TailwindCSS, AppWrite for a fast, user-friendly experience.
+                    A website built for admin to manage the issues and employees.
                     </p>
                 </div>
                 </div>
                 {/* RIGHT SIDE */}
                 <div className="project-list-wrapper overflow-hidden">
+                <a href="https://quick-booker.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <div className="project" ref={project3Ref}>
+                    <div className="image-wrapper bg-[#56caf5]">
+                        <img
+                        src="/images/project1.png"
+                        alt="FitBit"
+                        className="transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:brightness-110"
+                        />
+                    </div>
+                    <h2>
+                        On-Demand Rooms Made Simple with a Powerful, User-Friendly Website called QuickBooker
+                    </h2>
+                    </div>
+                </a>
                 <a href="https://github.com/Ayushj082/SupplyChainManagement" target="_blank" rel="noopener noreferrer">
                     <div className="project" ref={project2Ref}>
                     <div className="image-wrapper bg-[#ffefdb]">
@@ -64,21 +78,6 @@ const ShowcaseSection = ()=>{
                     </div>
                     <h2>
                         SupplyChain Management Platform
-                    </h2>
-                    </div>
-                </a>
-
-                <a href="https://github.com/Ayushj082/project-fitness-app" target="_blank" rel="noopener noreferrer">
-                    <div className="project" ref={project3Ref}>
-                    <div className="image-wrapper bg-[#ffe7eb]">
-                        <img
-                        src="/images/project3.png"
-                        alt="FitBit"
-                        className="transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:brightness-110"
-                        />
-                    </div>
-                    <h2>
-                        FitBit - A React Fitness App
                     </h2>
                     </div>
                 </a>
